@@ -9,7 +9,9 @@ body {
 }
 
 .well {
-	border-style:solid;
+	-webkit-box-shadow: -11px 10px 135px 28px rgba(0,0,0,0.75);
+	-moz-box-shadow: -11px 10px 135px 28px rgba(0,0,0,0.75);
+	box-shadow: -11px 10px 135px 28px rgba(0,0,0,0.75);
 }
 
 h1{
@@ -21,13 +23,15 @@ h1{
 	-webkit-box-shadow: -6px 7px 16px -5px rgba(0,0,0,0.75);
 -moz-box-shadow: -6px 7px 16px -5px rgba(0,0,0,0.75);
 box-shadow: -6px 7px 16px -5px rgba(0,0,0,0.75);
-font-family: 'Monoton', cursive;
-/*font-family: 'Shrikhand', cursive;
-font-family: 'Enriqueta', serif;*/
+/* font-family: 'Monoton', cursive; */
+font-family: 'Shrikhand', cursive;
+/*font-family: 'Enriqueta', serif;*/
 }
 .container {
 	margin-top: 30px;
 	margin-bottom: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 #aside{
@@ -164,12 +168,18 @@ box-shadow: -6px 7px 16px -5px rgba(0,0,0,0.75);
 	padding: 0 15px;
 }
 
+/*Projects*/
+.submenu {
+	padding: 0 15px 15px 15px;
+}
+
 .features {
 	padding-left: 10px;
 }
 
-#porfolio{
+div#porfolio{
 	line-height: 22px;
+	padding-bottom: 10px;
 }
 
 
@@ -178,4 +188,5 @@ box-shadow: -6px 7px 16px -5px rgba(0,0,0,0.75);
 	div#projects, div#certifications, div#porfolio, div#experience {
 		margin-left: 15px !important;
 	}
+
 } 
