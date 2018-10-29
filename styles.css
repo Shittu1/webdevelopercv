@@ -8,6 +8,10 @@ body {
     word-spacing: 1px;
 }
 
+.well {
+	border-style:solid;
+}
+
 h1{
 	font-size: 28px;
 	text-align: center;
@@ -44,6 +48,8 @@ box-shadow: -6px 7px 16px -5px rgba(0,0,0,0.75);
 #picture img {
 	display: block;
 	margin: auto;
+	width: 250px;
+	height: 250px;
 }
 #picture{
 	margin: 7px;
@@ -73,19 +79,7 @@ h2.contskil{
 
 
 
-
 /*---------- My-Skills ---------------*/
-/*div#barwrap {
-  margin: 0 auto;
-}*/
-
-/*#skills {
-	background: #fff;
-	padding-top: 20px;
-	-webkit-box-shadow: -6px 7px 16px -5px rgba(0,0,0,0.75);
--moz-box-shadow: -6px 7px 16px -5px rgba(0,0,0,0.75);
-box-shadow: -6px 7px 16px -5px rgba(0,0,0,0.75);
-}*/
 
 #skillsDetails{
 	padding: 0 15px 25px 15px;
@@ -177,3 +171,11 @@ box-shadow: -6px 7px 16px -5px rgba(0,0,0,0.75);
 #porfolio{
 	line-height: 22px;
 }
+
+
+/** Media Queries*/
+@media only screen and (max-width: 765px) {
+	div#projects, div#certifications, div#porfolio, div#experience {
+		margin-left: 15px !important;
+	}
+} 
